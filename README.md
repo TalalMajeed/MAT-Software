@@ -215,8 +215,8 @@ Replace `public/assets/logo.svg` with your company logo.
 
 For support or questions about this project, please contact:
 
--   Email: info@matsoftware.com
--   Phone: +92 300 1234567
+-   Email: contact@matsoftware.io
+-   Phone: +92 328 4820829
 
 ## 📄 License
 

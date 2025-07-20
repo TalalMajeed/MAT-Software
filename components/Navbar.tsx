@@ -43,16 +43,22 @@ const Navbar = () => {
                         whileHover={{ scale: 1.05 }}
                         className="flex-shrink-0"
                     >
-                        <Link href="/" className="flex items-center space-x-2">
+                        <Link
+                            href="/"
+                            className="flex items-center space-x-2 gap-1"
+                        >
                             <Image
                                 src="/assets/logo.svg"
                                 alt="mat software"
-                                width={40}
-                                height={40}
-                                className="w-10 h-10"
+                                width={30}
+                                height={30}
+                                className="w-8 h-8"
                             />
-                            <span className="text-xl font-bold gradient-text">
-                                MAT Software
+                            <span className="text-xl font-bold text-primary">
+                                mat{" "}
+                                <span className="text-xl font-bold text-black">
+                                    software
+                                </span>
                             </span>
                         </Link>
                     </motion.div>
@@ -86,14 +92,14 @@ const Navbar = () => {
                             className="flex items-center space-x-2 text-sm text-gray-600"
                         >
                             <Phone className="w-4 h-4 text-primary" />
-                            <span>+92 300 1234567</span>
+                            <span>+92 328 4820829</span>
                         </motion.div>
                         <motion.div
                             whileHover={{ scale: 1.05 }}
                             className="flex items-center space-x-2 text-sm text-gray-600"
                         >
                             <Mail className="w-4 h-4 text-primary" />
-                            <span>info@matsoftware.com</span>
+                            <span>contact@matsoftware.io</span>
                         </motion.div>
                     </div>
 
@@ -144,11 +150,11 @@ const Navbar = () => {
                                 <div className="px-3 py-2 text-sm text-gray-600">
                                     <div className="flex items-center space-x-2 mb-2">
                                         <Phone className="w-4 h-4 text-primary" />
-                                        <span>+92 300 1234567</span>
+                                        <span>+92 328 4820829</span>
                                     </div>
                                     <div className="flex items-center space-x-2">
                                         <Mail className="w-4 h-4 text-primary" />
-                                        <span>info@matsoftware.com</span>
+                                        <span>contact@matsoftware.io</span>
                                     </div>
                                 </div>
                             </div>

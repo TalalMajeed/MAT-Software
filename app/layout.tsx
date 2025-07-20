@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         title: "MAT Software - Leading Software Services Company",
         description:
             "Premier software services company in Lahore, Pakistan specializing in custom software development and digital solutions.",
-        url: "https://matsoftware.com",
+        url: "https://matsoftware.io",
         siteName: "MAT Software",
         locale: "en_US",
         type: "website",
@@ -27,6 +27,9 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "MAT Software - Leading Software Services Company",
         description: "Premier software services company in Lahore, Pakistan",
+    },
+    icons: {
+        icon: "/assets/logo.svg",
     },
 };
 

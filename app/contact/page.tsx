@@ -94,8 +94,8 @@ export default function Contact() {
         {
             icon: Mail,
             title: "Email Address",
-            content: "info@matsoftware.com",
-            link: "mailto:info@matsoftware.com",
+            content: "contact@matsoftware.io",
+            link: "mailto:contact@matsoftware.io",
         },
         {
             icon: Clock,
